@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./modules/desktop.nix
     ];
 
   # Bootloader.
@@ -43,13 +44,6 @@
     LC_PAPER = "en_US.UTF-8";
     LC_TELEPHONE = "en_US.UTF-8";
     LC_TIME = "en_US.UTF-8";
-  };
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-    options = "caps:escape";
   };
 
   # Fish Shell
@@ -115,29 +109,6 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
-  
-  # Minimal graphical environment
-  services.xserver = {
-	enable = true;
-	windowManager.i3 = {
-		enable = true;
-		extraPackages = with pkgs; [
-			dmenu
-			i3status
-		];
-	};
-  };  
-
-  # Touchpad Configuration
-  services.libinput = {
-	enable = true;
-	touchpad = {
-		tapping = true;
-		naturalScrolling = true;
-		disableWhileTyping = true;
-		clickMethod = "clickfinger";
-	};
-  };
 
   # Modern Audio Stack
   security.rtkit.enable = true;
@@ -145,11 +116,6 @@
 	enable = true;
 	alsa.enable = true;
 	pulse.enable = true;
-  };
-
-  # Ly Display Manager
-  services.displayManager.ly = {
-	enable = true;
   };
 
   # D3cold_allowed NVMe Fix
@@ -194,16 +160,6 @@
       "browser.download.folderList" = 2;
     };
   };
-
-  # Picom
-  services.picom = {
-    enable = true;
-    backend = "glx";
-    vSync = true;
-  };
-
-  # DConf
-  programs.dconf.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
