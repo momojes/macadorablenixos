@@ -14,6 +14,8 @@
     pkgs.qutebrowser
     adwaita-icon-theme
     brightnessctl
+    zathura
+    zathura-pdf-mupdf
   ];
 
   fonts.packages = with pkgs; [
