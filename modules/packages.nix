@@ -15,7 +15,7 @@
     adwaita-icon-theme
     brightnessctl
     zathura
-    zathura-pdf-mupdf
+    pkgs.zathuraPkgs.zathura_pdf_mupdf
   ];
 
   fonts.packages = with pkgs; [
