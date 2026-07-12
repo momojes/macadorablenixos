@@ -16,5 +16,7 @@
 
     hugo
     gleam
+
+    pkgs.github-cli
   ];
 }

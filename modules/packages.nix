@@ -6,7 +6,7 @@
     neovim
     git
     jetbrains-mono
-    xclip
+    xrandr
     pavucontrol
     pkgs.fastfetch
     pkgs.nnn
