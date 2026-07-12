@@ -2,7 +2,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    firefox
     kitty
     neovim
     git
@@ -12,6 +11,7 @@
     pkgs.fastfetch
     pkgs.nnn
     pkgs.apostrophe
+    pkgs.qutebrowser
     adwaita-icon-theme
     brightnessctl
   ];
