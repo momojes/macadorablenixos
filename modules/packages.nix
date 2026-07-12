@@ -20,6 +20,7 @@
     pkgs.slop
     pkgs.xclip
     pkgs.btop
+    pkgs.vesktop
   ];
 
   fonts.packages = with pkgs; [
