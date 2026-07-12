@@ -16,6 +16,9 @@
     brightnessctl
     zathura
     pkgs.zathuraPkgs.zathura_pdf_mupdf
+    maim
+    slop
+    xclip 
   ];
 
   fonts.packages = with pkgs; [
