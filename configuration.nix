@@ -9,6 +9,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/desktop.nix
+      ./modules/packages.nix
+      ./modules/development.nix
+      ./modules/maintenance.nix
     ];
 
   # Bootloader.
@@ -65,10 +68,6 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     git
-    jetbrains-mono
-    pavucontrol
-    kitty
-    neovim
     rustc
     cargo
     rustfmt
@@ -77,18 +76,11 @@
     hugo
     gleam
     clang
-    xclip
     xrandr
     pkgs.github-cli
     gcc
     gnumake
     ncurses
-    pkgs.fastfetch
-    pkgs.btop
-    pkgs.apostrophe
-    adwaita-icon-theme
-    brightnessctl
-    pkgs.nnn
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
