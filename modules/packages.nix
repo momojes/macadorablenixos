@@ -5,7 +5,6 @@
     kitty
     neovim
     git
-    jetbrains-mono
     xrandr
     pavucontrol
     pkgs.fastfetch
@@ -25,5 +24,6 @@
 
   fonts.packages = with pkgs; [
     jetbrains-mono
+    maple-mono.variable
   ];
 }
