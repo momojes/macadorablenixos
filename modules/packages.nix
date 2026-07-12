@@ -19,6 +19,7 @@
     pkgs.maim
     pkgs.slop
     pkgs.xclip
+    pkgs.btop
   ];
 
   fonts.packages = with pkgs; [
