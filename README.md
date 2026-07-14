@@ -41,6 +41,7 @@ change is intentional.
 
 - Apostrophe
 - Zathura (MuPDF backend)
+- Emacs
 
 ### Terminal
 
@@ -81,6 +82,7 @@ change is intentional.
       ├──desktop.nix
       ├──packages.nix
       ├──development.nix
+      ├──emacs.nix
       └──maintenance.nix
 ```
 ## Workflox

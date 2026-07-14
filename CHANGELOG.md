@@ -2,6 +2,10 @@
 
 ## 2026-07-12
 
+- Installed Emacs
+
+## 2026-07-12
+
 - Switched Fonts from JetBrains Mono to Maple Mono
 
 ## 2026-07-12
