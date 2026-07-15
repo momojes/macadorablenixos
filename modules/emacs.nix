@@ -14,6 +14,7 @@ let
     helpful
     org-modern
     ace-window
+    ox-hugo
   ]);
 in
 {
