@@ -29,7 +29,7 @@ in
     pkgs.libtool
     pkgs.mupdf
     pkgs.pandoc
-    pkgs.grip
+    pkgs.python314Packages.grip
   ];
 
   services.emacs = {
