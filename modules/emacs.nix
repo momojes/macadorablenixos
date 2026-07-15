@@ -32,5 +32,6 @@ in
     package = myEmacs;
 
     startWithGraphical = true;
+  };
 
  }
