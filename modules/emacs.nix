@@ -5,6 +5,8 @@ let
     use-package
     magit
     vterm
+    markdown-mode
+    grip-mode
     pdf-tools
     vertico
     orderless
@@ -26,6 +28,8 @@ in
     pkgs.gcc
     pkgs.libtool
     pkgs.mupdf
+    pkgs.pandoc
+    pkgs.grip
   ];
 
   services.emacs = {
