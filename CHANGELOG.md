@@ -20,3 +20,7 @@
 ## 2026-07-14
 
 - Added Emacs systemd services
+
+## 2026-07-15
+
+- Removed Apostrophe in favor of Emacs + Grip for Markdown Editing

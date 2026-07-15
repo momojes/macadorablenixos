@@ -39,7 +39,6 @@ change is intentional.
 
 ### Writing
 
-- Apostrophe
 - Zathura (MuPDF backend)
 - Emacs
 
