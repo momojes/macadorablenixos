@@ -10,6 +10,10 @@ let
     orderless
     marginalia
     consult
+    which-key
+    helpful
+    org-modern
+    ace-window
   ]);
 in
 {
@@ -22,4 +26,11 @@ in
     pkgs.libtool
     pkgs.mupdf
   ];
+
+  services.emacs = {
+    enable = true;
+    package = myEmacs;
+
+    startWithGraphical = true;
+
  }
