@@ -19,6 +19,13 @@
     pkgs.xclip
     pkgs.btop
     pkgs.vesktop
+    firefox
+    thunar
+    gvfs
+    xdg-desktop-portal
+    xdg-desktop-portal-gtk
+    adw-gtk3
+    adwaita-icon-theme
   ];
 
   fonts.packages = with pkgs; [
