@@ -24,3 +24,4 @@
 ## 2026-07-15
 
 - Removed Apostrophe in favor of Emacs + Grip for Markdown Editing
+- Added XDG Portal, Thunar, Firefox as well as Adwaita Theme for Thunar
