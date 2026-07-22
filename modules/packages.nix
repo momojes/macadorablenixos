@@ -20,6 +20,7 @@
     pkgs.btop
     pkgs.vesktop
     pkgs.cider-2
+    pkgs.firefox
   ];
 
   fonts.packages = with pkgs; [
