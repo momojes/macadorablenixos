@@ -19,6 +19,7 @@
     pkgs.xclip
     pkgs.btop
     pkgs.vesktop
+    pkgs.cider-2
   ];
 
   fonts.packages = with pkgs; [
