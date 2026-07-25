@@ -21,7 +21,6 @@
     pkgs.vesktop
     pkgs.cider-2
     pkgs.firefox
-    feh
   ];
 
   fonts.packages = with pkgs; [
