@@ -10,5 +10,6 @@
      swaylock
      wl-clipboard
      xwayland-satellite
+     wlogout
   ];
 }
