@@ -42,7 +42,7 @@ Packages:
 
 ```nix
 pkgs.maim
-pkgs.slip
+pkgs.slop
 pkgs.xclip
 ```
 
@@ -86,6 +86,10 @@ Primary Browser
 
 - qutebrowser
 
+Secondary Browser
+
+- firefox
+
 Downloads:
 
 ```python
@@ -122,20 +126,20 @@ OS Age is calculated using:
 
 # Maintenance
 
-Automatic garbage collection:
+The system automatically keeps the latest 10 NixOS system generations.
+
+Weekly systemd timer:
+
+1. Lists the system generations.
+2. Deletes all but the newest 10.
+3. Runs Nix store garbage collection.
+
+The systemd-boot menu is also limited to 10 configurations.
+
+Store optimization is enabled with:
 
 ```nix
-nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 14d";
-}
-```
-
-Store optimization:
-
-```nix
-nix.settings.auto-optimise-store = true;
+nix.settings.auto-optimize-store = true;
 ```
 
 ---
