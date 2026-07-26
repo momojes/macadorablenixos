@@ -4,12 +4,15 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      
       ./modules/desktop.nix
+      ./modules/i3.nix
+      ./modules/niri.nix
+      
       ./modules/packages.nix
       ./modules/development.nix
       ./modules/maintenance.nix
       ./modules/emacs.nix
-      ./modules/i3.nix
     ];
 
   # Bootloader.
