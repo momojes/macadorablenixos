@@ -57,16 +57,18 @@ change is intentional.
 - GCC
 - Clang
 - Make
+- Zig
+- Hare
 
 ## Features
 
 - HiDPI configuration
-- Caps Lock -> Escape
+- Caps Lock -> Control
 - Fish Vi mode
 - Keyboard backlight support
 - Screenshot shortcuts
 - Automatic garbage collection
--Store optimization
+- Store optimization
 
 ## Repository Layout
 
