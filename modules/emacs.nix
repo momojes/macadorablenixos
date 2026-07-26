@@ -23,11 +23,8 @@ in
   environment.systemPackages = with pkgs; [
     myEmacs
 
-    pkgs.git
     pkgs.cmake
-    pkgs.gcc
     pkgs.libtool
-    pkgs.mupdf
     pkgs.pandoc
     pkgs.python314Packages.grip
   ];

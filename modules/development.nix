@@ -2,6 +2,8 @@
 
 {
   environment.systemPackages = with pkgs; [
+    git
+    
     rustc
     cargo
     rustfmt
@@ -19,6 +21,6 @@
     zig
     hare
 
-    pkgs.github-cli
+    github-cli
   ];
 }

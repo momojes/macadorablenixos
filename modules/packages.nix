@@ -4,7 +4,6 @@
   environment.systemPackages = with pkgs; [
     kitty
     neovim
-    git
     xrandr
     pavucontrol
     pkgs.fastfetch
