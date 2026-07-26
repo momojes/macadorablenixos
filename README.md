@@ -74,19 +74,19 @@ change is intentional.
 
 ```
 /etc/nixos
-├──configuration.nix
-├──hardware-configuration.nix
-├──install-date
-├──README.md
-├──NOTES.md
-└──modules/
-      ├──desktop.nix
-      ├──packages.nix
-      ├──development.nix
-      ├──emacs.nix
-      └──maintenance.nix
+├── configuration.nix
+├── hardware-configuration.nix
+├── install-date
+├── README.md
+├── NOTES.md
+└── modules/
+      ├── desktop.nix
+      ├── packages.nix
+      ├── development.nix
+      ├── emacs.nix
+      └── maintenance.nix
 ```
-## Workflox
+## Workflow
 
 After making changes:
 
