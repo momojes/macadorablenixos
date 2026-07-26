@@ -16,6 +16,8 @@
 
     hugo
     gleam
+    zig
+    hare
 
     pkgs.github-cli
   ];
