@@ -1,42 +1,18 @@
 { pkgs, ... }:
 
 {
-  services.xserver = {
-    enable = true;
+   services.displayManager.ly.enable = true;
 
-    windowManager.i3 = {
-      enable = true;
-      extraPackages = with pkgs; [
-        dmenu
-        i3status
-      ];
-    };
+   services.libinput = {
+   	enable = true;
 
-    xkb = {
-      layout = "us";
-      options = "ctrl:nocaps";
-    };
-  };
+	touchpad = {
+	    tapping = true;
+	    disableWhileTyping = true;
+	    naturalScrolling = true;
+	    clickMethod = "clickfinger";
+        };
+   };
 
-  services.displayManager.ly.enable = true;
-
-  services.libinput = {
-    enable = true;
-
-    touchpad = {
-      tapping = true;
-      disableWhileTyping = true;
-      naturalScrolling = true;
-      clickMethod = "clickfinger";
-    };
-  };
-
-  services.picom = {
-    enable = true;
-    backend = "glx";
-    vSync = true;
-  };
-
-  programs.dconf.enable = true;
-
+   programs.dconf.enable = true;
 }
