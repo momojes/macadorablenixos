@@ -24,3 +24,9 @@
 ## 2026-07-15
 
 - Removed Apostrophe in favor of Emacs + Grip for Markdown Editing
+
+## 2026-07-26
+
+- Added new programming languages (Zig & Hare)
+- Added Gammastep, Pinta, Firefox, Vesktop, & Cider
+- Updated Maintenance Schedule to only 10 generations and garbage collection
