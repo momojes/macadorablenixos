@@ -9,6 +9,7 @@
       ./modules/development.nix
       ./modules/maintenance.nix
       ./modules/emacs.nix
+      ./modules/i3.nix
     ];
 
   # Bootloader.
