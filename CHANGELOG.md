@@ -30,3 +30,5 @@
 - Added new programming languages (Zig & Hare)
 - Added Gammastep, Pinta, Firefox, Vesktop, & Cider
 - Updated Maintenance Schedule to only 10 generations and garbage collection
+- Separated i3 into its own module for better package control
+- Added a Niri module alongside the appropriate tooling (fuzzel, waybar, mako, swaylock, etc)
