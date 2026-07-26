@@ -1,12 +1,12 @@
 { pkgs, ... }:
 
 {
-    service.xserver = {
+    services.xserver = {
         enable = true;
 
 	xkb = {
 	    layout = "us";
-	    options = "ctrl:nocaps"
+	    options = "ctrl:nocaps";
 	};
 
 	windowManager.i3 = {
