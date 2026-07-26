@@ -11,5 +11,6 @@
      wl-clipboard
      xwayland-satellite
      wlogout
+     swaybg
   ];
 }
