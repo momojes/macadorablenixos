@@ -72,7 +72,7 @@ change is intentional.
 
 ## Repository Layout
 
-```
+```text
 /etc/nixos
 ├── configuration.nix
 ├── hardware-configuration.nix
@@ -81,14 +81,15 @@ change is intentional.
 ├── CHANGELOG.md
 ├── NOTES.md
 └── modules/
-      ├── desktop.nix
-      ├── packages.nix 
-      ├── development.nix
-      ├── emacs.nix
-     ├── i3.nix
-	 ├── niri.nix
-      └── maintenance.nix
+    ├── desktop.nix
+    ├── packages.nix
+    ├── development.nix
+    ├── emacs.nix
+    ├── i3.nix
+    ├── niri.nix
+    └── maintenance.nix
 ```
+
 ## Workflow
 
 After making changes:
