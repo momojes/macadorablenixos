@@ -21,7 +21,7 @@
     pkgs.cider-2
     pkgs.firefox
     pkgs.pinta
-    pkgs.gammastep
+    pkgs.udiskie
   ];
 
   fonts.packages = with pkgs; [
