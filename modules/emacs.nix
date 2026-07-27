@@ -17,6 +17,7 @@ let
     org-modern
     ace-window
     ox-hugo
+    nix-mode
   ]);
 in
 {
