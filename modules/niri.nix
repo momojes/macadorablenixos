@@ -9,6 +9,7 @@
      mako
      swaylock
      wl-clipboard
+     cliphist
      xwayland-satellite
      wlogout
      swaybg
