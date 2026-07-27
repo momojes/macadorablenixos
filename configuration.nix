@@ -4,6 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./modules/hibernate.nix
       
       ./modules/desktop.nix
       ./modules/i3.nix
