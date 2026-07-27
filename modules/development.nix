@@ -20,6 +20,7 @@
     gleam
     zig
     hare
+    nixd
 
     github-cli
   ];
