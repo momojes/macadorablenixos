@@ -85,8 +85,8 @@ change is intentional.
       ├── packages.nix 
       ├── development.nix
       ├── emacs.nix
-	  ├── i3.nix
-	  ├── niri.nix
+     ├── i3.nix
+	 ├── niri.nix
       └── maintenance.nix
 ```
 ## Workflow
