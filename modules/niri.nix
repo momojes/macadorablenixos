@@ -14,5 +14,6 @@
      wlogout
      swaybg
      swayidle
+     wlsunset
   ];
 }
