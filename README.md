@@ -107,5 +107,5 @@ a new generation unnecessarily.
 
 Partially, this machine is intended to feel like a purpose-built, UNIX-style,
 writingstation while harnessing the power of NixOS to make configurations stable,
-reproducible, and pleasant to use.
+reproducible, and pleasant to use. I am ultimately interested in having the machine melt away so that I can focus on my tasks, all the while being a pleasant machine to work with.
 
