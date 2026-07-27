@@ -40,6 +40,7 @@ change is intentional.
 
 - Emacs
 - Zathura (MuPDF)
+- Clipboard Management (Cliphist)
 
 ### Terminal
 
