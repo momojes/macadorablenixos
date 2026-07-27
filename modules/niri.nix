@@ -12,5 +12,6 @@
      xwayland-satellite
      wlogout
      swaybg
+     swayidle
   ];
 }
