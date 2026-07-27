@@ -22,25 +22,24 @@ change is intentional.
 | CPU | Intel Core m-series|
 | Display | 2304x1440 Retina |
 | Graphics | Intel HD Graphics |
-| Window Manager | i3 |
+| Window Manager | i3/Niri |
 | Display Manager | Ly |
 
 ## Software
 
 ### Desktop
 
-- i3
 - Ly
-- Picom
+- i3/Niri
 - Fish
 - Kitty
-- qutebrowser
+- qutebrowser/Firefox
 - FastFetch
 
 ### Writing
 
-- Zathura (MuPDF backend)
 - Emacs
+- Zathura (MuPDF)
 
 ### Terminal
 
@@ -78,12 +77,15 @@ change is intentional.
 ├── hardware-configuration.nix
 ├── install-date
 ├── README.md
+├── CHANGELOG.md
 ├── NOTES.md
 └── modules/
       ├── desktop.nix
-      ├── packages.nix
+      ├── packages.nix 
       ├── development.nix
       ├── emacs.nix
+	  ├── i3.nix
+	  ├── niri.nix
       └── maintenance.nix
 ```
 ## Workflow
