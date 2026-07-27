@@ -24,4 +24,8 @@
 	backend = "glx";
 	vSync = true;
     };
+
+    environment.systemPackages = with pkgs; [
+       gammastep
+    ];
 }
