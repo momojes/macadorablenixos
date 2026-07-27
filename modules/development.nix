@@ -21,7 +21,6 @@
     zig
     hare
     nixd
-
-    github-cli
+    
   ];
 }
