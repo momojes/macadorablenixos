@@ -12,16 +12,18 @@
     adwaita-icon-theme
     brightnessctl
     zathura
-    pkgs.zathuraPkgs.zathura_pdf_mupdf
-    pkgs.maim
-    pkgs.slop
-    pkgs.xclip
-    pkgs.btop
-    pkgs.vesktop
-    pkgs.cider-2
-    pkgs.firefox
-    pkgs.pinta
-    pkgs.udiskie
+    zathuraPkgs.zathura_pdf_mupdf
+    maim
+    slop
+    xclip
+    btop
+    vesktop
+    cider-2
+    firefox
+    pinta
+    udiskie
+    dino
+    mpv
   ];
 
   fonts.packages = with pkgs; [
