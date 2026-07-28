@@ -33,3 +33,9 @@
 - Separated i3 into its own module for better package control
 - Added a Niri module alongside the appropriate tooling (fuzzel, waybar, mako, swaylock, etc)
 - Added Clipboard functionality
+
+## 2026-07-27
+
+- Enabled Flakes & Experimental Features
+- Created Manim Flake
+- Added a Hibernate Module (Not Working Yet!)
