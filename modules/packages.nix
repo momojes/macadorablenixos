@@ -22,7 +22,6 @@
     firefox
     pinta
     udiskie
-    dino
     mpv
   ];
 
