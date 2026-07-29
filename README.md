@@ -33,7 +33,7 @@ change is intentional.
 - i3/Niri
 - Fish
 - Kitty
-- qutebrowser/Firefox
+- Firefox
 - FastFetch
 
 ### Writing
