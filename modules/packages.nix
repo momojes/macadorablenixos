@@ -6,9 +6,8 @@
     neovim
     xrandr
     pavucontrol
-    pkgs.fastfetch
-    pkgs.nnn
-    pkgs.qutebrowser
+    fastfetch
+    nnn
     adwaita-icon-theme
     brightnessctl
     zathura
