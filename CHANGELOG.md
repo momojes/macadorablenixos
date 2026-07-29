@@ -39,3 +39,7 @@
 - Enabled Flakes & Experimental Features
 - Created Manim Flake
 - Added a Hibernate Module (Not Working Yet!)
+
+## 2026-07-28
+
+- Removed qutebrowser
